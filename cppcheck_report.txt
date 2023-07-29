@@ -1,0 +1,5 @@
+src/yarn.c:592:5: warning: %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    printf("\tReg: %-5s = 0x%08X   %d\n",yarn_registerToString(r), rval, rval);
+    ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
